@@ -1,0 +1,17 @@
+C:\Users\puzir\source\repos\ugolovka\ugolovka\bin\Debug\net6.0-windows\ugolovka.exe
+C:\Users\puzir\source\repos\ugolovka\ugolovka\bin\Debug\net6.0-windows\ugolovka.deps.json
+C:\Users\puzir\source\repos\ugolovka\ugolovka\bin\Debug\net6.0-windows\ugolovka.runtimeconfig.json
+C:\Users\puzir\source\repos\ugolovka\ugolovka\bin\Debug\net6.0-windows\ugolovka.dll
+C:\Users\puzir\source\repos\ugolovka\ugolovka\bin\Debug\net6.0-windows\ref\ugolovka.dll
+C:\Users\puzir\source\repos\ugolovka\ugolovka\bin\Debug\net6.0-windows\ugolovka.pdb
+C:\Users\puzir\source\repos\ugolovka\ugolovka\obj\Debug\net6.0-windows\ugolovka.csproj.AssemblyReference.cache
+C:\Users\puzir\source\repos\ugolovka\ugolovka\obj\Debug\net6.0-windows\ugolovka.Form1.resources
+C:\Users\puzir\source\repos\ugolovka\ugolovka\obj\Debug\net6.0-windows\ugolovka.csproj.GenerateResource.cache
+C:\Users\puzir\source\repos\ugolovka\ugolovka\obj\Debug\net6.0-windows\ugolovka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\puzir\source\repos\ugolovka\ugolovka\obj\Debug\net6.0-windows\ugolovka.AssemblyInfoInputs.cache
+C:\Users\puzir\source\repos\ugolovka\ugolovka\obj\Debug\net6.0-windows\ugolovka.AssemblyInfo.cs
+C:\Users\puzir\source\repos\ugolovka\ugolovka\obj\Debug\net6.0-windows\ugolovka.csproj.CoreCompileInputs.cache
+C:\Users\puzir\source\repos\ugolovka\ugolovka\obj\Debug\net6.0-windows\ugolovka.dll
+C:\Users\puzir\source\repos\ugolovka\ugolovka\obj\Debug\net6.0-windows\ref\ugolovka.dll
+C:\Users\puzir\source\repos\ugolovka\ugolovka\obj\Debug\net6.0-windows\ugolovka.pdb
+C:\Users\puzir\source\repos\ugolovka\ugolovka\obj\Debug\net6.0-windows\ugolovka.genruntimeconfig.cache
