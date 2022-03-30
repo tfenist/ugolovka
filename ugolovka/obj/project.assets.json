@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\puzir\\.nuget\\packages\\": {}
+    "C:\\Users\\dmitr\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\puzir\\source\\repos\\ugolovka\\ugolovka\\ugolovka.csproj",
+      "projectUniqueName": "C:\\Users\\dmitr\\Source\\Repos\\tfenist\\ugolovka\\ugolovka\\ugolovka.csproj",
       "projectName": "ugolovka",
-      "projectPath": "C:\\Users\\puzir\\source\\repos\\ugolovka\\ugolovka\\ugolovka.csproj",
-      "packagesPath": "C:\\Users\\puzir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\puzir\\source\\repos\\ugolovka\\ugolovka\\obj\\",
+      "projectPath": "C:\\Users\\dmitr\\Source\\Repos\\tfenist\\ugolovka\\ugolovka\\ugolovka.csproj",
+      "packagesPath": "C:\\Users\\dmitr\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dmitr\\Source\\Repos\\tfenist\\ugolovka\\ugolovka\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\puzir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dmitr\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

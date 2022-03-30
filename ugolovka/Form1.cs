@@ -46,7 +46,12 @@ namespace ugolovka
             richTextBox1.Text = result.ToLowerInvariant(); // Переведим текст в нижний регистр
         }
 
-        private void button2_Click(object sender, EventArgs e)
+
+
+
+
+
+        private void button2_Click(object sender, EventArgs e) // сохранение в файл
         {
             if (saveFileDialog1.ShowDialog() == DialogResult.Cancel)
             {
@@ -55,6 +60,92 @@ namespace ugolovka
 
             File.WriteAllText(saveFileDialog1.FileName, richTextBox2.Text);
             MessageBox.Show("Фаил сохранен!");
+        }
+
+        public class EnglishtoRussian
+        {
+            Dictionary<string, string> Dchar = new Dictionary<string, string>()
+            {
+                {"a", "а"},
+                {"b", "ь"},
+                {"o", "о"},
+                {"0", "о"},
+                {"3", "з"},
+                {"4", "ч"},
+                {"6", "б"},
+                {"7", "т"},
+                {"8", "в"},
+                {"9", "д"},
+                {"x", "х"},
+                {"k", "к"},
+                {"e", "е"},
+                {"c", "с"},
+                {"m", "м"},
+                {"t", "т"},
+                {"y", "у"},
+                {"w", "ш"},
+                {"bi", "ы"},
+                {"p", "р"},
+            };
+
+            public string Swap(string source)
+            {
+                string result = "";
+
+                foreach (var ch in source)
+                {
+                    var s = "";
+
+                    if (Dchar.TryGetValue(ch.ToString(), out s))
+                        result += s;
+
+                    else result += ch;
+                }
+
+                return result;
+            }
+        }
+
+        public class RussiantoEnglish
+        {
+            Dictionary<string, string> Dchar = new Dictionary<string, string>()
+            {
+                {"а", "a"},
+                {"ь", "b"},
+                {"о", "o"},
+                {"0", "o"},
+                {"1", "l"},
+                {"2", "z"},
+                {"5", "s"},
+                {"7", "t"},
+                {"9", "g"},
+                {"х", "x"},
+                {"к", "k"},
+                {"е", "e"},
+                {"с", "c"},
+                {"м", "m"},
+                {"т", "t"},
+                {"у", "y"},
+                {"ш", "w"},
+                {"р", "p"},
+
+            };
+            public string Swap(string source)
+            {
+                string result = "";
+
+                foreach (var ch in source)
+                {
+                    var s = "";
+
+                    if (Dchar.TryGetValue(ch.ToString(), out s))
+                        result += s;
+
+                    else result += ch;
+                }
+
+                return result;
+            }
         }
     }
 }
