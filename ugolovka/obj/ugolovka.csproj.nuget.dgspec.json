@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dmitr\\Source\\Repos\\tfenist\\ugolovka\\ugolovka\\ugolovka.csproj": {}
+    "C:\\Users\\пользователь\\Source\\Repos\\tfenist\\ugolovka\\ugolovka\\ugolovka.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dmitr\\Source\\Repos\\tfenist\\ugolovka\\ugolovka\\ugolovka.csproj": {
+    "C:\\Users\\пользователь\\Source\\Repos\\tfenist\\ugolovka\\ugolovka\\ugolovka.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dmitr\\Source\\Repos\\tfenist\\ugolovka\\ugolovka\\ugolovka.csproj",
+        "projectUniqueName": "C:\\Users\\пользователь\\Source\\Repos\\tfenist\\ugolovka\\ugolovka\\ugolovka.csproj",
         "projectName": "ugolovka",
-        "projectPath": "C:\\Users\\dmitr\\Source\\Repos\\tfenist\\ugolovka\\ugolovka\\ugolovka.csproj",
-        "packagesPath": "C:\\Users\\dmitr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dmitr\\Source\\Repos\\tfenist\\ugolovka\\ugolovka\\obj\\",
+        "projectPath": "C:\\Users\\пользователь\\Source\\Repos\\tfenist\\ugolovka\\ugolovka\\ugolovka.csproj",
+        "packagesPath": "C:\\Users\\пользователь\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\пользователь\\Source\\Repos\\tfenist\\ugolovka\\ugolovka\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\dmitr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\пользователь\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +61,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

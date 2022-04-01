@@ -17,6 +17,7 @@ namespace ugolovka
 
         public string fileText = "";
 
+
         private void button1_Click(object sender, EventArgs e)
         {
             richTextBox1.Clear();
@@ -44,12 +45,51 @@ namespace ugolovka
             }
 
             richTextBox1.Text = result.ToLowerInvariant(); // Переведим текст в нижний регистр
+
+            string[] words = richTextBox1.Text.Split(" ");
+           
+
+            foreach (string word in words)
+            {
+                int Ru = 0, Eng = 0, Num = 0;
+
+                for (int i = 0; i < word.Length; i++)
+                {
+                    char c = word[i];
+
+                    if ((c >= 'а') & (c <= 'я'))
+                        Ru++;
+
+                    else if ((c >= 'a') & (c <= 'z'))
+                        Eng++;
+
+                    else if ((c >= '0') & (c <= '9'))
+                        Num++;
+                }
+
+                if (Ru > Eng)
+                {
+                    EnglishtoRussian etr = new EnglishtoRussian();
+                    richTextBox2.Text += etr.Swap(word) + " ";
+
+                }
+
+                else if (Eng > Ru)
+                {
+                    RussiantoEnglish rte = new RussiantoEnglish();
+                    richTextBox2.Text += rte.Swap(word) + " ";
+                }
+
+                else if (word == "")
+                {
+                    richTextBox2.Text += " ";
+                }
+
+                else richTextBox2.Text += word;
+            }
+
+
         }
-
-
-
-
-
 
         private void button2_Click(object sender, EventArgs e) // сохранение в файл
         {
